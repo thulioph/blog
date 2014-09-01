@@ -1,0 +1,56 @@
+/* ==================
+   Typography
+  ================== */
+
+@font-face {
+    font-family: 'helveticaltstd-boldcond';
+    src: url('../fonts/helvetica/helveticaltstd-boldcond.eot');
+    src: url('../fonts/helvetica/helveticaltstd-boldcond.eot') format('embedded-opentype'),
+         url('../fonts/helvetica/helveticaltstd-boldcond.svg#source-light') format('svg'),
+         url('../fonts/helvetica/helveticaltstd-boldcond.ttf') format('truetype'),
+         url('../fonts/helvetica/helveticaltstd-boldcond.woff') format('woff');
+    font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourcesanspro-regular';
+    src: url('../fonts/sourcepro-regular/sourcesanspro-regular.eot');
+    src: url('../fonts/sourcepro-regular/sourcesanspro-regular.eot') format('embedded-opentype'),
+         url('../fonts/sourcepro-regular/sourcesanspro-regular.svg#source-light') format('svg'),
+         url('../fonts/sourcepro-regular/sourcesanspro-regular.ttf') format('truetype'),
+         url('../fonts/sourcepro-regular/sourcesanspro-regular.woff') format('woff');
+    font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/icons/flaticon.eot");
+  src: url("../fonts/icons/flaticon.eot#iefix") format("embedded-opentype"),
+      url("../fonts/icons/flaticon.woff") format("woff"),
+      url("../fonts/icons/flaticon.ttf") format("truetype"),
+      url("../fonts/icons/flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after,
+[class^="rock"]:before, [class*="beer"]:before,
+[class^="rock"]:after, [class*="beer"]:after {   
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.flaticon-drink24:before,
+.beer:before {
+  content: "\e000";
+}
+
+.flaticon-hand52:before,
+.rock:before {
+  content: "\e001";
+}

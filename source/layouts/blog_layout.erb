@@ -1,0 +1,31 @@
+<%= partial 'partials/header' %>
+
+  <main id="main" role="main" class="main container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-lg-12">
+        <%= yield %>
+      </div>
+    </div>
+  </main>
+
+  <!-- Mostra os artigos recentes dentro de cada post -->
+  <aside class="last-posts"> 
+    <h2 class="title">Pode gostar também:</h2>
+    <ol>
+      <% blog.articles[0...4].each do |article| %>
+        <li class="last-posts-item">
+          <h2 class="last-posts-title">
+            <%= link_to article.title, '#', class: 'last-posts-link' %> 
+          </h2>
+
+          <span class="last-posts-date">
+            <%= article.date.strftime('%B') %>
+          </span>
+
+          <%= link_to 'Veja o post', article, class: 'link-view-post' %> 
+        </li>
+      <% end %>
+    </ol>
+  </aside>
+
+<%= partial 'partials/footer'  %>

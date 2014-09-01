@@ -1,0 +1,47 @@
+/* ==================
+   Base Styles
+  ================== */
+
+//
+// Variables
+//
+
+// Colors
+$black: #333332;
+$gray: #666665;
+$gray-light: #f2f2f2;
+
+
+// Fonts
+$ff-helvetica: 'helveticaltstd-boldcond';
+$ff-title: $ff-helvetica;
+
+$ff-source: 'sourcesanspro-regular';
+$ff-text: $ff-source;
+
+$ff-flaticon: 'Flaticon';
+$ff-icon: $ff-flaticon;
+
+
+
+// 
+// Helpers
+// 
+%posts-info {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.2em;
+  margin: 0 5px 10px 0;
+  font-family: $ff-text;
+}
+
+
+// 
+// Mixins
+// 
+
+@mixin transition($property, $time, $method, $delay) {
+  -webkit-transition: $property $time $method $delay;
+  -o-transition: $property $time $method $delay;
+  transition: $property $time $method $delay;
+}

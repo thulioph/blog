@@ -1,0 +1,39 @@
+---
+pageable: true
+---
+
+<!-- Lista todos os posts da pasta /blog -->
+<section class="home">
+
+  <% page_articles.each_with_index do |article, i| %>
+    <article class="posts">
+      <h2 class="posts-title"><%= link_to article.title, article %></h2>
+        
+      <div class="posts-info">
+        <div class="month"><%= article.date.strftime('%B') %></div>
+        <div class="year"><%= article.date.strftime('%Y') %></div>
+        <div class="local"></div>
+      </div>
+      
+      <%= article.summary(350, '.') %>
+    </article>
+  <% end %>
+
+  <!--  
+  <% if paginate && num_pages > 1 %>
+    <p class="pages">Página <%= page_number %> de <%= num_pages %></p>
+  <% end %>
+  -->
+
+  <% if paginate %>
+    <% if prev_page %>
+      <p class="pages"><%= link_to 'Página anterior', prev_page %></p>
+    <% end %>
+
+    <% if next_page %>
+      <p class="pages"><%= link_to 'Próxima página', next_page %></p>
+    <% end %>
+  <% end %>
+
+
+</section>

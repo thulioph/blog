@@ -47,16 +47,16 @@ activate :blog do |blog|
   blog.sources = "blog/:title.html"
   blog.summary_separator = /leiamais/
   blog.paginate = true
-  blog.page_link = "blog/{num}"
+  blog.page_link = "{num}"
   blog.per_page = 10
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def link(url, text)
+    "<a href='#{url}'>#{text}</a>"
+  end
+end
 
 set :css_dir, 'stylesheets'
 

@@ -1,6 +1,7 @@
 ---
-title:  API Geolocation
-date:   2014-03-10 09:00:00
+title: API Geolocation
+date:  2014-03-10 09:00:00
+local: Tableless
 ---
 
 Depois de tanto tempo distante, para ser mais preciso 1 mês e 16 dias estou de volta e hoje vou falar sobre a [API Geolocation do HTML5][api-geolocation-google], que por sinal já é “bastante” antiga mas eu ainda não tinha conseguido fazer nada com ela, nem se quer mostrar um mapa :( Maaas agora as coisas mudaram, depois de ver com calma e brincar um pouco, finalmente consegui utiliza-la e hoje irei mostrar como, **LET’S WORK!**

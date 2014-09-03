@@ -12,7 +12,7 @@ pageable: true
       <div class="posts-info">
         <div class="month"><%= article.date.strftime('%B') %></div>
         <div class="year"><%= article.date.strftime('%Y') %></div>
-        <div class="local"></div>
+        <div class="local"><%= article.data.local  %></div>
       </div>
       
       <%= article.summary(350, '.') %>

@@ -7,12 +7,17 @@ pageable: true
 
   <% page_articles.each_with_index do |article, i| %>
     <article class="posts">
+    
+    <% if article.data.link %>
+      <h2 class="posts-title"><%= link_to article.title, article.data.link, target: '_blank' %></h2> 
+    <% else %>
       <h2 class="posts-title"><%= link_to article.title, article %></h2>
+    <% end %>
         
       <div class="posts-info">
+        <div class="local"><%= article.data.local %></div>
         <div class="month"><%= article.date.strftime('%B') %></div>
         <div class="year"><%= article.date.strftime('%Y') %></div>
-        <div class="local"><%= article.data.local  %></div>
       </div>
       
       <%= article.summary(350, '.') %>
@@ -25,15 +30,16 @@ pageable: true
   <% end %>
   -->
 
-  <% if paginate %>
-    <% if prev_page %>
-      <p class="pages"><%= link_to 'Página anterior', prev_page %></p>
-    <% end %>
+    <% if paginate %>
+      <ul class="pagination">
+        <% if prev_page %>
+          <li><%= link_to 'Página anterior', prev_page %></li>
+        <% end %>
 
-    <% if next_page %>
-      <p class="pages"><%= link_to 'Próxima página', next_page %></p>
+        <% if next_page %>
+          <li><%= link_to 'Próxima Página', next_page %></li>
+        <% end %>
+      </ul>
     <% end %>
-  <% end %>
-
 
 </section>

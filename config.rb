@@ -11,6 +11,9 @@
 # Page options, layouts, aliases and proxies
 ###
 
+# Pretty URLs
+activate :directory_indexes
+
 # Per-page layout changes:
 #
 # With no layout
@@ -43,8 +46,8 @@ end
 # Activate blog
 activate :blog do |blog|
   blog.layout = "blog_layout"
-  blog.permalink = "post/:category/:title"
-  blog.sources = "blog/:title.html"
+  blog.sources = "posts/:title.html"
+  blog.permalink = ":category/:title"
   blog.summary_separator = /leiamais/
   blog.paginate = true
   blog.page_link = "{num}"

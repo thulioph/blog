@@ -6,21 +6,16 @@ category: javascript
 
 O primeiro post de 2014 será sobre a melhor descoberta que tive no ano, passaram-se 365 dias e no último mês, aos 20 minutos do segundo tempo eu aprendi uma nova ferramenta que irá agregar e muito valor aos meus projetos de hoje em diante. Neste post irei falar um pouco sobre a [API GOOGLE MAPS V3][api-link-google] onde ela sofreu atualizações e veio agora com algumas melhorias e recursos adicionais para dispositivos móveis e desktops.
 
-
 No último projeto que participei o designer incluiu no layout um mapa com um local e width: 100%. Até ai nada demais não é? Fui no google maps, digitei o endereço do local e incorporei o mapa ao meu projeto com aquele iframe lindo cheio de coisas inúteis _sobrinho detected_. Pois é querido (ouvinte?) era assim mesmo que eu fazia nos meus projetos e achava isso tão lindo e fácil, agora tenho vergonha de falar que utilizava mapas assim :(
 
-
 Para ser mais preciso, dia 12 de Dezembro de 2013 foi o dia que fiz este passo pela “última vez”.. Não sei o que deu em mim que não estava curtindo vê aquele iframe fdp no meu código, me dava dor nos olhos, me deu ânsia de vômitos, dor de cabeça, eu suei frio.. E fui aprender como manipular a API do Google Maps. Vamos ao que interessa, irei descrever abaixo o passo a passo de como eu cheguei [neste resultado][link-final], com esta base você consegue brincar bastante e personalizar o quanto quiser seu mapa.
-
 
 ###HTML
 No HTML criei uma div que irá receber o mapa e estilizei esta div com CSS, determinando uma largura, altura e uma borda para melhor visualiza-la. *OBS:Não considere a prática do estilo inline, utilizei para melhor ilustrar o exemplo*
 
-
 <pre class="lang-html">
 &lt;div id='mapa' style='width: 100%; height: 500px; border: 1px solid #ccc;'&gt;&lt;/div&gt;
 </pre>
-
 
 Criei um arquivo com o nome de **mapa.js** onde terá todas as configurações e parâmetros do mapa e executei a chamada no HTML.
 
@@ -30,7 +25,6 @@ Criei um arquivo com o nome de **mapa.js** onde terá todas as configurações e
 
 
 Meu HTML ficou desta forma:
-
 
 <pre class="lang-html">
 &lt;!doctype html&gt;
@@ -48,10 +42,8 @@ Meu HTML ficou desta forma:
 &lt;/html&gt;
 </pre>
 
-
 ###JS/CRIANDO MINHA CHAVE API
 Para começar a brincar, será preciso criar uma chave de API, de acordo com as normas do Google esta chave é necessária para suas aplicações serem monitoradas e terem um “cadastro”, assim o google poderá entrar em contato com você com relação a sua aplicação caso seja necessário.
-
 
 Como crio uma chave?
 
@@ -60,10 +52,8 @@ Como crio uma chave?
 - Ative o serviço **API do Google Maps v3**;
 - No menu esquerdo clique no link **acesso á api**, a chave de acesso estará disponível nesta página na sessão **acesso simples a api**;
 
-
 ###JS/EXIBINDO UM MAPA SIMPLES
 Agora que você já tem uma chave pode iniciar a brincadeira, e a primeira coisa a se fazer é mostrar o mapa do local no html. Como funciona?
-
 
 - Criei uma função `initialize()` onde irá englobar todos os parâmetros e configurações do mapa;
 - Criei uma variável `myLatlng` onde passo a latitude, longitude (nesta ordem) do local do mapa;
@@ -72,7 +62,6 @@ Agora que você já tem uma chave pode iniciar a brincadeira, e a primeira coisa
 - `center` define que o mapa será em um ponto específico, ponto este passado na variável `myLatlng`;
 - `mapTypeId` define o tipo de mapa que será exibido: ROADMAP (mapa padrão), SATELLITE (blocos fotográficos), HYBRID (rodovias, cidades, etc..), TERRAIN (exibe montanhas, rios, etc.);
 - Foi definida uma variável `var map` e atribui a ela um novo objeto `Map` passando as opções definidas no `mapOptions`;
-
 
 <pre class="lang-javascript">
 function initialize() {

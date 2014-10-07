@@ -7,7 +7,6 @@ Todo desenvolvedor que se preze, utiliza o inspect do seu navegador preferido, s
 
 ###1ª Escolha um tema da lista abaixo e copie o arquivo custom.css
 
-<br>
 - [Monokai Dark](https://github.com/s10wen/SO-Dark-Monokai-v3 "Monokai Dark")
 - [MNML Theme](https://github.com/frontdevDE/mnml-devtools-theme "MNML Theme")
 - [Tomorrow Theme](https://gist.github.com/1163300 "Tomorrow Theme")
@@ -17,32 +16,28 @@ Todo desenvolvedor que se preze, utiliza o inspect do seu navegador preferido, s
 - [Dark Dev](https://github.com/simonsmith/DarkDev "Dark Dev")
 - [WebLight Theme](https://gist.github.com/martndemus/1325072 "WebLight Theme")
 
-<br>
 *obs: você pode modificar o tema existente ou criar um a partir de outro.*
 
-<br>
 ###2ª Vá até o diretório css do inspect do chrome e modifique para o do tema escolhido.
 
-<br>
 *obs: abaixo segue o local do diretório para cada plataforma*
 
-<br>
 **Windows:**
-{% highlight powershell %}
+
+<pre class="lang-shell">
 C:\Users\**SeuUsuario**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
-{% endhighlight %}
+</pre>
 
-<br>
 **Mac:**
-{% highlight powershell %}
+
+<pre class="lang-shell">
 ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/
-{% endhighlight %}
+</pre>
 
-<br>
 **Linux:**
-{% highlight powershell %}
-~/.config/chrome/Default/User StyleSheets/
-{% endhighlight %}
 
-<br>
+<pre class="lang-shell">
+~/.config/chrome/Default/User StyleSheets/
+</pre>
+
 Após substituir o arquivo, volte para o navegador, F12 e a mágica está feita!

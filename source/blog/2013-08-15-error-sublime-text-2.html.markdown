@@ -9,17 +9,13 @@ Ontem (14/08/2013) quando chego no trabalho, executo o sublime e ele me aparece 
 
 Descobri o problema, quando fui no [grupo do facebook](https://www.facebook.com/groups/sublimedevs/ "Grupo no Facebook") sobre o sublime e tinha muita gente com problemas iguais, até que um cara postou a resposta para nossos problemas:
 
-<br>
 **Seus plugins foram parar no Ignored Packages. Abre o Settings - User e tira de lá.**
 
-<br>
 Realmente, todos os plugins que utilizo, estavam lá no ignored packages do sublime, como resolver?
 
-<br>
 Vá em *PREFERENCES* > *SETTINGS-USER* e deixe o arquivo desta forma:
 
-<br>
-{% highlight json %}
+<pre class="lang-json">
 {
 
   “ignored_packages”:
@@ -27,13 +23,10 @@ Vá em *PREFERENCES* > *SETTINGS-USER* e deixe o arquivo desta forma:
   [ ]
 
 }
-{% endhighlight %}
+</pre>
 
-<br>
 Após isso reinicie o sublime e tudo estará ok.
 
-<br>
 Existem outras formas que foram expostas no grupo, que também deram certo, não testei nenhuma outra além dessa que postei, então caso tenha interesse, abaixo seguem links que podem te ajudar, ou até mesmo no próprio grupo você acompanhando os posts :)
 
-<br>
 - [http://www.sublimetext.com/docs/2/vintage.html](http://www.sublimetext.com/docs/2/vintage.html "Leia mais sobre Vintage Mode")

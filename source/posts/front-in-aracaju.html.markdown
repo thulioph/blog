@@ -2,6 +2,7 @@
 title: Front In Aracaju
 date:  2014-08-11 21:00:00
 local: Medium
+category: events
 link: https://medium.com/@thulioph_/front-in-aracaju-1c3a2273de91
 ---
 

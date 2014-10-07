@@ -35,6 +35,20 @@ $ff-icon: $ff-flaticon;
   font-family: $ff-text;
 }
 
+%text {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  color: $gray;
+  font-family: $ff-text;
+}
+
+%posts-title {
+  font-family: $ff-title;
+  text-transform: uppercase;
+  color: $black;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  font-size: 3em;
+}
 
 // 
 // Mixins

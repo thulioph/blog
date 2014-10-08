@@ -1,6 +1,7 @@
 ---
 title:  2º Open meeting PERNAMBUCO.js
 date:   2013-09-23 09:00:00
+category: events
 ---
 
 Queria ter registrado a uns dias atrás, o resumo sobre o Meeting do Pernambuco.JS que rolou, tinha escrito algo mas estava salvo em rascunho, só que tenho 32 rascunhos e só hoje parei para ver um por um até que achei esse "perdido" rsrs, pois bem! Dia 14/09 rolou o 2º Open Meeting do [Pernambuco.JS][pernambucojs-facebook] lá na Marista. A comunidade de Javascript de Pernambuco, sempre que possível, realiza encontros que são chamados de Meeting. Se reúnem em algum lugar para falar de novidades, experimentos, contar em que estão trabalhando, enfim.. Os temas sempre são bem legais e os palestrantes nem sempre são experientes e/ou famosos e aí que tá a “graça”, qualquer um pode ir lá e apresentar algo novo e diferente de igual pra igual.
@@ -13,7 +14,7 @@ Eles falaram sobre dois lados um pouco diferentes e cada um tinha um porque, o C
 
 <a href="https://speakerdeck.com/cirdes/getting-started-with-angular-dot-js" class="link-palestra" title="Link da palestra">Link da Palestra</a>
 
-Dando sequência na noite, foi a vez do [Guilherme Farias][guilherme-farias] falar sobre a facilidade que é desenvolver apps para o FirefoxOS utilizando HTML, CSS e JS. Falou do mercado que vem crescendo cada dia mais, graças a facilidade que é portar uma aplicação para o device, mostrou links de apoio, local onde você pode tirar dúvidas, grupos, etc.. 
+Dando sequência na noite, foi a vez do [Guilherme Farias][guilherme-farias] falar sobre a facilidade que é desenvolver apps para o FirefoxOS utilizando HTML, CSS e JS. Falou do mercado que vem crescendo cada dia mais, graças a facilidade que é portar uma aplicação para o device, mostrou links de apoio, local onde você pode tirar dúvidas, grupos, etc..
 
 <a href="http://www.slideshare.net/guiky/firefoxos-plataforma-open-web" class="link-palestra" title="Link da palestra">Link da Palestra</a>
 

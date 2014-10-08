@@ -1,6 +1,7 @@
 ---
 title:  Faça a escolha certa
 date:   2013-09-01 09:00:00
+category: outros
 ---
 
 A um tempo atrás, tinha grande dúvida sobre o que seria na verdade pós-graduação, graduação, mestrado, etc.. qual a duração, qual o melhor caminho a seguir.. Depois de uma pesquisa, achei um conteúdo interessante porém nada tão direto como o texto abaixo, texto retirado do grupo de discussões da faculdade onde o coordenador postou para “abrir mais a mente” de quem tinha dúvidas assim como eu.

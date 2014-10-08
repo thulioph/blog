@@ -1,6 +1,7 @@
 ---
 title:  10 coisas por Felipe Memória
 date:   2013-09-20 09:00:00
+category: outros
 ---
 
 Antes de lançar este blog, li sobre o [Felipe Memória](http://www.fmemoria.com/ "Site do Felipe Memória"). Mestre em Design, atualmente mora em Nova York, trabalhou na Globo.com,  admirável pelos ótimos trabalhos que fez para a CNN, PEPSI, HBO, etc.. Autor de um livro chamado [“Design para Internet – Projetando a Experiência Perfeita”](http://www.buscape.com.br/design-para-a-internet-felipe-memoria-8535218769.html#precos "Pesquisa do livro no buscapé").

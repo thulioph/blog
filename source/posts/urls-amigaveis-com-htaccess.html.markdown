@@ -1,6 +1,7 @@
 ---
 title:  URL'S Amigáveis com .HTACCESS
 date:   2013-11-04 09:00:00
+category: tips
 ---
 
 A bastante tempo eu estava procurando sobre como obter urls amigáveis nos meus projetos e levava o maior pau pois nunca dava certo, todo mundo falava que era super simples e que não tinha mistério e blá blá blá, mas ninguém nunca me ensinou de verdade *#chateado rsrs*. Esses dias atualizei [meu site](http://thulioph.com/ "Meu site :)") e então resolvi que ele teria urls amigáveis e novamente cai nas pesquisas. Existem várias maneiras de se conseguir, porém vou mostrar através do [.htaccess](http://en.wikipedia.org/wiki/Htaccess "O que é isso?").

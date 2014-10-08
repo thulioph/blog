@@ -1,6 +1,7 @@
 ---
 title:  Upgrade Sublime Text 2
 date:   2013-09-04 09:00:00
+category: sublime
 ---
 
 Ultimamente tenho pesquisado muito sobre o sublime, pois passo a maior parte do meu tempo admirando-o e conversando com o mesmo, e toda minha concentração é nele, para digitar qualquer coisa, rascunho, briefing, post, comentário, testes, etc.. então nada mais justo com ele (e comigo também) do que melhora-lo um pouco mais facilitando meu uso e meu rendimento. Deixando de conversa, vou dar um upgrade no sublime através do **Preferences** -> **Settings-Users**.

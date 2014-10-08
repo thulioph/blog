@@ -1,6 +1,7 @@
 ---
 title:  < / 2013 >
 date:   2013-12-31 09:00:00
+category: outros
 ---
 
 A ‘/’ não significa fechar né? Pois este ano fechei com chave de ouro e antes de me despedir de 2013, eu gostaria de agradecer pelo ótimo ano que tive, este ano me proporcionou cada coisa ótima pude presenciar tanta coisa boa que vai ficar marcado pra sempre. Este ano rolou de tudo: perdas, ganhos, tentativas, desastres, felicidades, frutos do passado, testes, avaliações e principalmente vitórias; Se eu for fazer uma retrospectiva rápida das coisas que eu planejei pra este ano e alcancei, consegui muita coisa boa.

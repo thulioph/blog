@@ -1,6 +1,7 @@
 ---
 title:  Feec Lite Recife 2013
 date:   2013-10-01 09:00:00
+category: eventos
 ---
 
 Dia 11/09 aconteceu o Feec Lite, na Livraria Cultura no centro da cidade do Recife. O feec para quem não conhece é um evento composto por palestras rápidas e workshops por profissionais ligados a área de tecnologia. Nesta edição o evento contou com a presença de pessoas como: [Tulio Caraciolo][tulio-caraciolo], [Eiran Simis][eira-simis], [André Britto][andre-britto], [Danilo Torres][danilo-torres], [Socorro Macedo][socorro-macedo], [Gustavo Costa][gustavo-costa], [Lucas Cavalcanti][lucas-cavalcanti] e [Guilherme Farias][guilherme-farias].

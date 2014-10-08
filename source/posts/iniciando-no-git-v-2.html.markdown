@@ -1,9 +1,10 @@
 ---
 title:  INICIANDO NO GIT v.2
 date:   2013-08-01 09:00:00
+category: git
 ---
 
-Se você não viu e/ou não leu a [v.1](../iniciando-no-git-v-1) deste guia, pare tudo e vá conferir o que foi apresentado, depois você volta :) Nesse post vou falar de duas formas de se ter um repositório git:                                                                                                                                                                                                                   
+Se você não viu e/ou não leu a [v.1](../iniciando-no-git-v-1) deste guia, pare tudo e vá conferir o que foi apresentado, depois você volta :) Nesse post vou falar de duas formas de se ter um repositório git:
 
 ###Caso 1
 Você tem um diretório/projeto existente em sua máquina local e quer enviar para um servidor remoto (bitbucket por exemplo)

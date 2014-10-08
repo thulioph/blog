@@ -1,6 +1,7 @@
 ---
 title:  Porque Programadores gostam de Programar?
 date:   2013-12-12 09:00:00
+category: outros
 ---
 
 Já que é algo tão difícil *e realmente é* e muitos viram noites sem reclamar, trabalham o dia todo sentado, bebem muito café, ficam com dores nas articulações e dedos *alguns rsrs*, se “vangloriam” de ter criado determinado programa, app, webapp, site, enfim.. É algo que eu não sei explicar, porque só quem vive é quem sabe a sintonia que é, só quem trabalha com isso é que sabe o quanto é “irado” programar, você resolver algo que irá beneficiar outras pessoas, resolver problemas, tornar algo mais fácil para o bom uso de outros, criar, tornar algo “vivo”, trazer interação, criar interação.. É algo de grande valor que passando por algumas profissões rápidas poucas podem te dar este “prazer” que é programar.

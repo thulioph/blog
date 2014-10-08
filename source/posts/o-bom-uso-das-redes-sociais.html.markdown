@@ -1,6 +1,7 @@
 ---
 title:  O bom uso das Redes Sociais
 date:   2014-02-25 09:00:00
+category: outros
 ---
 
 Ontem realizando minhas leituras diárias, terminei encontrando um link no site da [Exame.com](http://exame.abril.com.br/ "Site da Exame.com") onde falava sobre um ranking elaborado pelo Serasa Experian que mostrava o uso das redes sociais pelos brasileiros. Antes de continuar, queria deixar bem clara a minha opinião principal sobre esta matéria e dizer que a grande maioria dos brasileiros são burros, mais abaixo irei explicar o porque.

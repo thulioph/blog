@@ -1,6 +1,7 @@
 ---
 title:  Bower no Sublime
 date:   2013-11-07 09:00:00
+category: sublime
 ---
 
 Esses dias andei testando o bower, pra quem não conhece ele é um [gerenciador de pacotes](http://bower.io/ "Site do Bower") que vai te ajudar bastante e irá melhorar o seu workflow em alguns %. Em todo início de projeto, existem algumas bibliotecas que você sempre inclui:  [jQuery](http://jquery.com/ "jQuery"), [modernizr](http://modernizr.com/ "Modernizr"), etc.. Todas as vezes você vai no repositório, clona ou faz o download através do site da biblioteca e isso tudo gera tempo, imagine se você trabalha com 12 bibliotecas, e ter que ir fazer o download atualizado de cada uma? Já se vai uns 20 minutos por baixo só de “tempo perdido”.

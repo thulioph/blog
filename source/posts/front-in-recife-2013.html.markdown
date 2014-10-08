@@ -1,6 +1,7 @@
 ---
 title:  Front In Recife 2013
 date:   2013-12-16 09:00:00
+category: eventos
 ---
 
 Sábado dia 14/12 rolou o primeiro [Front In Recife][front-in-recife] na Faculdade Marista  e fechou o ano com chave de ouro; Todos que subiram no palco para palestrar estão de parabéns, conteúdos diversos onde foram abordados de forma simples e de fácil entendimento. Apesar do atraso no início do evento, ocorreu tudo da melhor forma possível com um ambiente agradável e um sábado super produtivo para todos. Os “feras” presentes foram [Shankar Cabus][shankar-cabus], [Ciro Nunes][ciro-nunes], [Mailson Lira][mailson-lira], [Guilherme Farias][guilherme-farias], [Luiz Tiago][luiz-tiago], [Rodrigo Nogueira][rodrigo-nogueira], [Ramon Victor][ramo-victor], [Demian Borba][demian-borba], [Fábio Magnoni][fabio-magnoni], [Almir Filho][almir-filho], [Davidson Fellipe][davidson-fellipe] e [Leo Balter][leo-balter].

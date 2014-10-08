@@ -1,6 +1,7 @@
 ---
 title:  O meu amigo Cycle
 date:   2013-09-26 09:00:00
+category: javascript
 ---
 
 Hoje tirei o dia para falar do “meu amigo” [Cycle][link-cycle]. Ele é um plugin jQuery que quebra o galho quase que de vez em sempre, quando preciso fazer algumas coisas nos meus projetos, sem falar que você pode personalizar o quanto quiser, ele é super fácil de implementar e infelizmente muitas pessoas não o conhecem e é por isso que vim falar dele aqui hoje.

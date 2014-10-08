@@ -23,3 +23,6 @@ gem 'nokogiri'
 
 # jQuery
 gem 'jquery-rails', '~> 3.1.1', require: false
+
+# Disqus
+gem 'middleman-disqus'

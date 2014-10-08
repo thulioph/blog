@@ -1,6 +1,17 @@
-## Blog
+## blog.thulioph.com
+> [Meu blog pessoal](http://blog.thulioph.com "My personal blog :)")
 
-Os parâmetros que podem ser utilizados pro **post** são:
+Este blog foi construído para disseminar conteúdo relacionado a desenvolvimento, tecnologias e afins, sempre com o intúito de ajudar quem está começando e tirar algumas dúvidas. Ele foi desenvolvido utilizando o [Middleman](http://middlemanapp.com), para saber mais acesse o site do projeto.
+
+## Como instalar
+
+1. Clone este repositório.
+2. Rode o comando: `bundle install`.
+3. Após instalar todas as dependências, rode o comando: `middleman server`.
+4. Seu servidor irá rodar na porta `http://0.0.0.0:4567`.
+
+## Posts
+Os parâmetros que podem ser utilizados para cada **post** são:
 
 ```
 title: Título do Post
@@ -10,39 +21,36 @@ category: categoria
 link: http://link-do-post-externo.html
 ```
 
-Os parâmetros que devem ser setados pro **disqus** são:
-
-```
-disqus_identifier: /2012/the-best-day-of-my-life.html
-disqus_title: The best day of my life
-disqus_url: http://example.com/2012/the-best-day-of-my-life.html
-disqus_category_id: 4
-disqus_disable_mobile: true
-```
+Para pegar as informações de cada post de forma dinâmica, utilize: 
+`<%= article.data.prop %>` onde `prop` será um dos parâmetros descritos acima.
 
 ## Categorias
-As categorias que podem existir são:
+As únicas **categorias** existentes nos posts são: 
 
-`javascript`
-Posts relacionados a Javascript.
+##### `javascript`
+Posts relacionados à **Javascript**.
 
-`css`
-Posts relacionados a CSS.
+##### `css`
+Posts relacionados à **CSS**.
 
-`html`
-Posts relacionados a HTML.
+##### `html`
+Posts relacionados à **HTML**.
 
-`outros`
-Posts relacionados a Outros conteúdos.
+##### `outros`
+Posts relacionados à outro tipo de conteúdo que **não seja diretamente desenvolvimento**.
 
-`sublime`
-Posts relacionados ao Sublime.
+##### `sublime`
+Posts relacionados ao editor de texto **Sublime**.
 
-`git`
-Posts relacionados a Git.
+##### `git`
+Posts relacionados à **Git**.
 
-`eventos`
-Reviews de eventos.
+#####`eventos`
+Reviews e posts sobre **eventos** que participei.
 
-`tips`
-Dicas sobre qualquer coisa de desenvolvimento, normalmente os posts são curtos.
+##### `tips`
+Dicas sobre **qualquer coisa de desenvolvimento**, normalmente os posts serão curtos.
+
+
+## Licença
+[MIT License](http://thulioph.mit-license.org "MIT License") © Thulio Philipe

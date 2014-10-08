@@ -2,22 +2,22 @@
 pageable: true
 ---
 
-<!-- Lista todos os posts da pasta /blog -->
+<!-- Lista todos os posts da pasta /post -->
 <section class="home">
 
   <% page_articles.each_with_index do |article, i| %>
     <article class="posts">
     
     <% if article.data.link %>
-      <h2 class="posts-title"><%= link_to article.title, article.data.link, target: '_blank' %></h2> 
+      <h2 class="posts-title"><%= link_to article.title, article.data.link, target: '_blank', title: article.title %></h2> 
     <% else %>
-      <h2 class="posts-title"><%= link_to article.title, article %></h2>
+      <h2 class="posts-title"><%= link_to article.title, article, title: article.title %></h2>
     <% end %>
         
       <div class="posts-info">
-        <div class="local"><%= article.data.local %></div>
         <div class="month"><%= article.date.strftime('%B') %></div>
-        <div class="year"><%= article.date.strftime('%Y') %></div>
+        <div class="year"> | <%= article.date.strftime('%Y') %></div>
+        <div class="local"><%= article.data.local %></div>
       </div>
       
       <%= article.summary(350, '.') %>

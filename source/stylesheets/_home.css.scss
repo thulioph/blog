@@ -15,18 +15,6 @@
   }
 }
 
-// .posts {
-//   padding: 0;
-//   margin: 15px;
-//   display: inline-block;
-//   background: white;
-//   box-shadow: 0 1px 2px rgba(0,0,0, .4);
-  
-//   .posts-link {
-//     padding: 10px;
-//   }
-// }
-
 .posts-link {
   display: block;
 }
@@ -36,12 +24,33 @@
   a {
     @extend .posts-title;
     font-size: 1em;
+
+    &::before {
+      content: '';
+      width: 0;
+      height: 0;
+      color: transparent;
+      @include transition(all, .2s, ease-in-out, 0s);
+    }
+
+    &:hover {
+      &::before {
+        content: '';
+        width: 100%;
+        background-color: $gray;
+        height: 1px;
+        bottom: 0;
+        position: absolute;
+        display: block;
+      }
+    }
   }
 }
 
 .posts-info {
   .month {
     @extend %posts-info;
+    margin-right: 0px !important
   }
 
   .year {
@@ -56,3 +65,4 @@
 .posts-description {
   @extend %text;
 }
+

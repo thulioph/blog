@@ -4,6 +4,8 @@ date:   2013-09-01 09:00:00
 category: outros
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 A um tempo atrás, tinha grande dúvida sobre o que seria na verdade pós-graduação, graduação, mestrado, etc.. qual a duração, qual o melhor caminho a seguir.. Depois de uma pesquisa, achei um conteúdo interessante porém nada tão direto como o texto abaixo, texto retirado do grupo de discussões da faculdade onde o coordenador postou para “abrir mais a mente” de quem tinha dúvidas assim como eu.
 
 Existem diferenças grandes entre extensões, cursos técnicos, graduações e pós-graduações. É ilusão achar que você vai aprender ferramentas ou linguagens em cursos de graduação e pós-graduação. Puramente ferramental e linguagem você deve procurar extensões e cursos técnicos.

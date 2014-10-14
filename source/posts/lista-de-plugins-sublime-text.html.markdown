@@ -4,6 +4,8 @@ date:   2013-11-11 09:00:00
 category: sublime
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Mais um post da linha de **Melhorias no meu editor** e agora vou listar os plugins que utilizo com seus links para download, tem muita coisa boa que faz com que este editor seja o melhor que usei até hoje. Lembrando que para instalar qualquer um desses plugins, é importante ter o [Package Control](https://sublime.wbond.net/ "Package Control") instalado e rodar `ctrl/cmd + shift + p`  na tela que for aberta, procure pelo nome do plugin e aperte enter nele, a instalação é feita de forma automática, reinicie o editor e ele estará instalado e pronto para utilizar.
 
 ###[AutoFileName][auto-file-name]

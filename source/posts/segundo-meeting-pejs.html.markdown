@@ -4,6 +4,8 @@ date:   2013-09-23 09:00:00
 category: events
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Queria ter registrado a uns dias atrás, o resumo sobre o Meeting do Pernambuco.JS que rolou, tinha escrito algo mas estava salvo em rascunho, só que tenho 32 rascunhos e só hoje parei para ver um por um até que achei esse "perdido" rsrs, pois bem! Dia 14/09 rolou o 2º Open Meeting do [Pernambuco.JS][pernambucojs-facebook] lá na Marista. A comunidade de Javascript de Pernambuco, sempre que possível, realiza encontros que são chamados de Meeting. Se reúnem em algum lugar para falar de novidades, experimentos, contar em que estão trabalhando, enfim.. Os temas sempre são bem legais e os palestrantes nem sempre são experientes e/ou famosos e aí que tá a “graça”, qualquer um pode ir lá e apresentar algo novo e diferente de igual pra igual.
 
 [pernambucojs-facebook]: https://www.facebook.com/groups/pernambucojs

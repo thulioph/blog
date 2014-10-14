@@ -4,6 +4,8 @@ date:   2013-08-30 09:00:00
 category: tips
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Todo desenvolvedor que se preze, utiliza o inspect do seu navegador preferido, seja ele Chrome, Firefox, IE *tem certeza?* Assim como eu, você deve achar super sem graça o esquema de cores que eles disponibilizam como padrão (custom.css), depois de tanto procurar, posto aqui uma forma de personalizar o inspect, porém só no Google Chrome.
 
 ###1ª Escolha um tema da lista abaixo e copie o arquivo custom.css

@@ -4,6 +4,8 @@ date:   2013-10-04 09:00:00
 category: eventos
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 A faculdade Marista foi o destino do Coding on Weekend Recife que rolou no dia 28/09. Para quem não sabe o [COW](http://codingonweekend.com.br/ "Site do COW") *como é mais conhecido* é uma iniciativa do [Zeno](http://zenorocha.com/ "Site do Zeno Rocha") e do [Bernard](http://bernarddeluna.com/ "Site do Bernard de Luna") em ensinar as novas tecnologias HTML5, CSS3 e JavaScript de uma forma mais prática, divertida e de grande ajuda principalmente pra quem está começando. Não vou falar deles porque toda comunidade já deve está cansada de saber quem são os dois “gênios” da atualidade rsrs. Este post é para tirar algumas dúvidas e contar um pouco da experiência que foi de passar praticamente um dia todo com os caras só codando e espero com isso acabar com algumas dúvidas que muitos podem ter em relação a: *“será que vale a pena?” “será que eu vou aprender mesmo?”*, etc..
 
 O COW deu início com cada um falando um pouco sobre suas vidas, onde trabalharam, estudaram, o que faziam, etc e abrindo espaço para cada um dos participantes falarem um pouco de si.

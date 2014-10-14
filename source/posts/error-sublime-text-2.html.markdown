@@ -4,6 +4,8 @@ date:   2013-08-15 09:00:00
 category: sublime
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Ontem (14/08/2013) quando chego no trabalho, executo o sublime e ele me aparece com um erro. Aconteceu que o sublime amanheceu de saco virado e decidiu ignorar todos os meus plugins *rsrs brincadeira, na verdade ainda não sei o porque disso* mas o *'bom'* é que só não foi comigo, mas com muita gente que trabalha com ele.
 
 ![erro-sublime-text-2](../images/erro-sublime-text-2.jpg "Erro no Sublime Text 2")

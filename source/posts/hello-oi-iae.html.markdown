@@ -4,6 +4,8 @@ date:   2013-05-19 09:00:00
 category: outros
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 É depois de tanto pensar, planejar e viajar que estou lançando meu blog :) A idéia principal desse espaço aqui, é relatar algumas opiniões minha, mostrar conteúdo, fazer novas amizades, estudar mais, melhorar a habilidade de me expressar através das palavras, transmitir algum conteúdo para aqueles que não tem acesso, enfim.. Tinha essa vontade de criar um blog a um tempão, mas não sabia o que escrever, o que botar, com que frequência eu iria atualizar aqui, então depois de tanto pesquisar, criei uma base de idéias que vou seguir pra ficar alimentando este espaço para todos que acessarem.
 
 Aqui você pode encontrar, dicas, releases, spoilers, opiniões, tendências, códigos e resumo, frases interessantes e nada demais.

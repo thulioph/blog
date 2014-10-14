@@ -4,6 +4,8 @@ date: 2014/01/06
 category: javascript
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 O primeiro post de 2014 será sobre a melhor descoberta que tive no ano, passaram-se 365 dias e no último mês, aos 20 minutos do segundo tempo eu aprendi uma nova ferramenta que irá agregar e muito valor aos meus projetos de hoje em diante. Neste post irei falar um pouco sobre a [API GOOGLE MAPS V3][api-link-google] onde ela sofreu atualizações e veio agora com algumas melhorias e recursos adicionais para dispositivos móveis e desktops.
 
 No último projeto que participei o designer incluiu no layout um mapa com um local e width: 100%. Até ai nada demais não é? Fui no google maps, digitei o endereço do local e incorporei o mapa ao meu projeto com aquele iframe lindo cheio de coisas inúteis _sobrinho detected_. Pois é querido (ouvinte?) era assim mesmo que eu fazia nos meus projetos e achava isso tão lindo e fácil, agora tenho vergonha de falar que utilizava mapas assim :(

@@ -54,7 +54,7 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   def link(url, text)
-    "<a href='#{url}'>#{text}</a>"
+    "<a href='#{url}' title='#{text}'>#{text}</a>"
   end
 end
 

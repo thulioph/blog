@@ -4,7 +4,9 @@ date:   2013-07-31 09:00:00
 category: git
 ---
 
-Não vou estender muito sobre sua história, como surgiu, o que ele é, ou do que ele é capaz, caso você tenha interesse, dar uma rápida pesquisada na web. Nesta parte, vou falar de configurações básicas e de como ar o “pontapé inicial”. Então, vamos lá! :) Para o post não ficar cansativo, vou dividi-lo em algumas partes, e farei um índice no início de todas as partes.                                                                                                                                             
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
+Não vou estender muito sobre sua história, como surgiu, o que ele é, ou do que ele é capaz, caso você tenha interesse, dar uma rápida pesquisada na web. Nesta parte, vou falar de configurações básicas e de como ar o “pontapé inicial”. Então, vamos lá! :) Para o post não ficar cansativo, vou dividi-lo em algumas partes, e farei um índice no início de todas as partes.
 
 ###INSTALANDO
 

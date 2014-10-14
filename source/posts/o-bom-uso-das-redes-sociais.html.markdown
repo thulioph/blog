@@ -4,6 +4,8 @@ date:   2014-02-25 09:00:00
 category: outros
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Ontem realizando minhas leituras diárias, terminei encontrando um link no site da [Exame.com](http://exame.abril.com.br/ "Site da Exame.com") onde falava sobre um ranking elaborado pelo Serasa Experian que mostrava o uso das redes sociais pelos brasileiros. Antes de continuar, queria deixar bem clara a minha opinião principal sobre esta matéria e dizer que a grande maioria dos brasileiros são burros, mais abaixo irei explicar o porque.
 
 Pra não dizer com outras palavras, eu fiquei muito triste com esta notícia. Não tenho vergonha do meu país, tenho vergonha da população que deveria estar comendo capim uma hora dessas, porque em pleno século 21 o ser humano não tem a mínima idéia de como usar a internet ao seu favor e eu me pergunto: *“até quando?”*

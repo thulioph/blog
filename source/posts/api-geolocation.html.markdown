@@ -4,6 +4,8 @@ date:  2014-03-10 09:00:00
 category: javascript
 ---
 
+<h3 id="internal-title-post" class="internal-title-post"></h3>
+
 Depois de tanto tempo distante, para ser mais preciso 1 mês e 16 dias estou de volta e hoje vou falar sobre a [API Geolocation do HTML5][api-geolocation-google], que por sinal já é “bastante” antiga mas eu ainda não tinha conseguido fazer nada com ela, nem se quer mostrar um mapa :( Maaas agora as coisas mudaram, depois de ver com calma e brincar um pouco, finalmente consegui utiliza-la e hoje irei mostrar como, **LET’S WORK!**
 
 O resultado deste post é este [aqui][link-final] e você pode ver todo o código comentado [aqui][codigo-comentado].

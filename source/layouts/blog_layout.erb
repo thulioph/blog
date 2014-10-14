@@ -15,20 +15,20 @@
   </aside>
 
   <!-- Mostra os artigos recentes dentro de cada post -->
-  <aside class="last-posts"> 
+  <aside class="last-posts">
     <h2 class="title">Veja também:</h2>
     <ol>
       <% blog.articles[0...4].each do |article| %>
         <li class="last-posts-item">
           <h2 class="last-posts-title">
-            <%= link_to article.title, '#', class: 'last-posts-link' %> 
+            <%= link_to article.title, '#', class: 'last-posts-link' %>
           </h2>
 
           <span class="last-posts-date">
             <%= article.date.strftime('%B') %>
           </span>
 
-          <%= link_to 'Veja o post', article, class: 'link-view-post' %> 
+          <%= link_to 'Veja o post', article, class: 'link-view-post' %>
         </li>
       <% end %>
     </ol>

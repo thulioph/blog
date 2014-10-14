@@ -2,14 +2,25 @@
 //= require_tree .
 
 $(document).ready(function() {
+  // countWords();
+
   // Change name of month
   var meses = $('.month');
-
   for (var i = 0; i < meses.length; i++) {
     var mes = meses[i];
     changeMonth();
   }
 
+  // Print title and adjust images
+  var body = document.querySelector('body'),
+      index = body.classList.contains('index');
+
+  if (!index) {
+    printTitle();
+    adjustImage();
+  }
+
+  // Disqus
   disqus();
 
   function changeMonth() {
@@ -40,7 +51,6 @@ $(document).ready(function() {
     }
   }
 
-  // Adds disqus
   function disqus() {
     /* * * CONFIGURATION VARIABLES: THIS CODE IS ONLY AN EXAMPLE * * */
     var disqus_shortname = 'blogthulioph'; // Required - Replace example with your forum shortname
@@ -54,6 +64,34 @@ $(document).ready(function() {
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+  }
+
+  function printTitle() {
+    var titlePost = document.title;
+    var element = document.querySelector('#internal-title-post');
+
+    element.innerHTML = titlePost;
+  }
+
+  function countWords() {
+    var description = document.querySelectorAll('.post-description');
+    var array = [];
+
+    for (var i = 0; i < description.length;i++) {
+      var content = description[i].innerHTML;
+      var size = content.split(' ').length;
+
+      array.push(content);
+    }
+  }
+
+  function adjustImage() {
+    var parent = document.querySelector('img'),
+      element = parent.parentElement;
+
+    element.style.overflow = 'hidden';
+    element.style.maxHeight = '400px';
+    element.style.boxShadow  = '0 1px 2px rgba(0, 0, 0, 0.3)';
   }
 
 });

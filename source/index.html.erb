@@ -19,7 +19,9 @@ pageable: true
           <div class="local"><%= article.data.local %></div>
         </div>
 
-        <%= article.summary(350, '.') %>
+        <p class="post-description">
+          <%= Nokogiri::HTML(article.summary).text %>
+        </p>
     </article>
   <% end %>
 

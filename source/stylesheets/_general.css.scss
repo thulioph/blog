@@ -18,6 +18,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
 p {
   @extend %text;
 }
@@ -34,6 +41,10 @@ iframe {
 .main {
   h3 {
     margin: 20px 0 10px 0;
+    &.internal-title-post {
+      margin: 20px 0 10px 0;
+      border-bottom: 1px solid $black;
+    }
   }
 
   li {
@@ -60,9 +71,28 @@ a {
   display: block;
 }
 
-// 
+blockquote {
+  font-size: 1em;
+}
+
+// code
+code {
+  display: inline-block;
+  padding: 4px 6px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+//
 // Header
-// 
+//
 
 .header-primary {
   height: 90px;
@@ -110,9 +140,9 @@ a {
   color: $gray;
 }
 
-// 
+//
 // Footer
-// 
+//
 
 .footer-primary {
   width: 100%;
@@ -146,9 +176,9 @@ a {
   }
 }
 
-// 
+//
 // Last Posts
-// 
+//
 
 .last-posts {
   border-top: 1px solid $black;
